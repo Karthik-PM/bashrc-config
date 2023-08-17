@@ -8,6 +8,14 @@
 
 alias open='xdg-open'
 alias vim='nvim'
+alias ws='cd ~/workspace/'
+alias gobsh='vim ~/.bashrc'
+alias vws='cd ~/workspace/ && vim .'
+alias so='source ~/.bashrc'
+alias vimconfig='cd ~/.config/nvim/ && vim .'
+alias pcstat='watch -n1 -d sensors'
+alias v4l2set='sudo modprobe v4l2loopback'
+
 #################################################################################
 
 case $- in
